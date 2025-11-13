@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/icons/logo.jpg" type="image/x-icon">
+    <!-- Font Poppin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/dist/css/style.css">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Katalog Produk</title>
+</head>
+
+<body id="beranda">
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-box">
+                <div class="logo">
+                    <h1>LokaCraft</h1>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="#beranda">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#layanan">Layanan</a>
+                    </li>
+                    <li>
+                        <a href="#produk">Produk</a>
+                    </li>
+                    <li>
+                        <a href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+
+                <!-- Humburger -->
+                <i class="ri-menu-3-line ri-2x"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <!-- Hero -->
+    <div class="hero">
+        <div class="container">
+            <div class="hero-box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000" >
+                    <h1>Katalog <br />
+                        Produk LokaCraft
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, a quos fuga iure repellat
+                        mollitia praesentium eligendi atque incidunt? Quisquam.</p>
+                    <a href="#">Detail Produk Kami</a>
+                </div>
+                <div class="box" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="/assets/images/handmade.jpg" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero -->
+
+    <!-- Layanan -->
+    <div class="layanan" id="layanan">
+        <div class="container">
+            <div class="layanan-box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="ri-star-fill ri-2x"></i>
+                    <h2>Produk Handmade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam odit rem!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <i class="ri-price-tag-fill ri-2x"></i>
+                    <h2>Harga Terjangkau</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam odit rem!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <i class="ri-shopping-cart-fill ri-2x"></i>
+                    <h2>Terjual 5k+</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam odit rem!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Layanan -->
+
+    <!-- Produk -->
+    <div class="produk" id="produk">
+        <div class="container">
+            <div class="produk-box">
+                <h1>Produk Kami</h1>
+                <ul>
+                    <li class="active">All Product</li>
+                    <li>Aksesoris</li>
+                    <li>Mug</li>
+                    <li>Crochet</li>
+                </ul>
+
+                <div class="produk-list">
+                    <img src="/assets/images/aksesoris1.jpg" alt="Produk Image" data-filter="aksesoris">
+                    <img src="/assets/images/aksesoris2.jpg" alt="Produk Image" data-filter="aksesoris">
+                    <img src="/assets/images/aksesoris3.jpg" alt="Produk Image" data-filter="aksesoris">
+                    <img src="/assets/images/crochet1.jpg" alt="Produk Image" data-filter="crochet">
+                    <img src="/assets/images/crochet2.jpg" alt="Produk Image" data-filter="crochet">
+                    <img src="/assets/images/crochet3.jpg" alt="Produk Image" data-filter="crochet">
+                    <img src="/assets/images/mug1.jpg" alt="Produk Image" data-filter="mug">
+                    <img src="/assets/images/mug2.jpg" alt="Produk Image" data-filter="mug">
+                    <img src="/assets/images/mug3.jpg" alt="Produk Image" data-filter="mug">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Produk -->
+
+    <!-- Footer -->
+    <div class="footer" id="kontak">
+        <div class="box">
+            <p>&copy; Copyrights 2025</p>
+        </div>
+        <div class="box">
+            <i class="ri-whatsapp-fill ri-2x"></i>
+            <i class="ri-facebook-circle-fill ri-2x"></i>
+            <i class="ri-instagram-fill ri-2x"></i>
+            <i class="ri-twitter-fill ri-2x"></i>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
