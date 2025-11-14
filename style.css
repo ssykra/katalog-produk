@@ -48,7 +48,7 @@ body{
 }
 
 .navbar-box .menu li a:hover{
-    border-bottom: 3px solid rebeccapurple;
+    border-bottom: 3px solid #C9B59C;
 }
 
 .navbar-box .ri-menu-3-line{
@@ -68,7 +68,7 @@ body{
         transform: translate(-50%);
         flex-direction: column;
         text-align: center;
-        background-color: rebeccapurple;
+        background-color: #C9B59C;
         width: 100%;
         padding: 40px 0 40px 0;
         transition: all 0.2s ease-in-out;
@@ -113,7 +113,7 @@ body{
 
 .hero-box a{
     text-decoration: none;
-    background-color: rebeccapurple;
+    background-color: #C9B59C;
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
@@ -163,7 +163,7 @@ body{
 }
 
 .layanan-box .box:hover{
-    background-color: rebeccapurple;
+    background-color: #C9B59C;
 }
 
 .layanan-box .box:hover > * {
@@ -219,7 +219,7 @@ body{
 } 
 
 .produk-box ul li.active{ 
-    background-color: rebeccapurple; 
+    background-color: #C9B59C; 
     color: white; 
 } 
 
@@ -241,7 +241,7 @@ body{
 } 
 
 .produk-box .produk-list img:hover{ 
-    background-color: rebeccapurple; 
+    background-color: #C9B59C; 
     transform: scale(1.05); 
 }
 
@@ -280,7 +280,7 @@ body{
 }
 
 .footer .box i:hover{
-    color: rebeccapurple;
+    color: #C9B59C;
 }
 
 @media (max-width: 768px){
@@ -296,4 +296,5 @@ body{
         gap: 10px;
     }
 }
+
 /* Footer */
